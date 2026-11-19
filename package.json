@@ -1,0 +1,13 @@
+{
+  "name": "stilo-discord-anfragebot",
+  "version": "1.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Meldet neue Bot-Anfragen von Stilo Bot Studio in einem Discord-Kanal.",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env src/index.js"
+  }
+}
